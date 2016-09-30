@@ -1,0 +1,72 @@
+body {
+  background-color: #c2f0f0;
+  margin-right:auto;
+  margin-left: auto;
+  max-width: 680px;
+  padding: 10px;
+
+}
+
+h1{
+  color: #595959;
+  font-size: 39px;
+  font-family:'Yatra One', cursive;
+}
+
+h2{
+  font-family: 'Yatra One', cursive;
+  color: #595959;
+  font-size: 28px;
+}
+
+img{
+  max-width:300px;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 26px;
+}
+
+img.right {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+img.left{
+  float: right;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+
+ol, ul {
+  overflow: auto;
+
+}
+
+li{
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+
+}
+
+h3{
+  font-family: 'Yatra One', cursive;
+  font-size: 22px;
+  color: #595959;
+
+}
+
+section{
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  img.right, img.left {
+    float: none;
+  }
+}
